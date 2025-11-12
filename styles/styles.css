@@ -68,3 +68,8 @@ body {
     border-radius: 9px;
     border: none;
 }
+
+.main img {
+    height: auto;
+    width: 500px;
+}
