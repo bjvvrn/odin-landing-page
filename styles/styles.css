@@ -104,3 +104,27 @@ body {
 .information p {
     color: #808080;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 54px 216px 126px;
+    gap: 54px;
+}
+
+.information .info-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.information .info {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
