@@ -39,6 +39,20 @@ body {
     gap: 36px;
 }
 
+.main {
+    padding: 144px 216px;
+    display: flex;
+    gap: 180px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+}
+
 .main h1  {
     font-size: 48px;
     font-weight: 900;
