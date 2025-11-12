@@ -59,7 +59,8 @@ body {
 }
 
 .header, 
-.main {
+.main,
+.footer {
     background-color: #1f2937;
 }
 
@@ -69,7 +70,8 @@ body {
 }
 
 .header a, 
-.main p {
+.main p,
+.footer {
     color: #e5e7eb;
 }
 
