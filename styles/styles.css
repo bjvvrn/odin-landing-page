@@ -20,6 +20,10 @@ body {
 
 .header {
     background-color: #1f2937;
+    padding: 18px 216px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header h3 {
@@ -34,4 +38,6 @@ body {
 
 .header ul {
     list-style-type: none;
+    display: flex;
+    gap: 36px;
 }
