@@ -19,7 +19,6 @@ body {
 }
 
 .header {
-    background-color: #1f2937;
     padding: 18px 216px;
     display: flex;
     justify-content: space-between;
@@ -28,16 +27,44 @@ body {
 
 .header h3 {
     font-size: 24px;
-    color: #f9faf8;
 }
 
 .header a {
     text-decoration: none;
-    color: #e5e7eb;
 }
 
 .header ul {
     list-style-type: none;
     display: flex;
     gap: 36px;
+}
+
+.main h1  {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header, 
+.main {
+    background-color: #1f2937;
+}
+
+.header h3, 
+.main h1 {
+    color: #f9faf8;
+}
+
+.header a, 
+.main p {
+    color: #e5e7eb;
+}
+
+.main button {
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 9px;
+    border: none;
 }
