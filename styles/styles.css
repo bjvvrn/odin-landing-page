@@ -160,9 +160,21 @@ body {
     align-items: center;
 }
 
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 108px 0;
+}
+
 .sign-up .sign-up-container {
     background-color: #3882f6;
     width: 1000px;
+    padding: 54px 108px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .sign-up-container h3 {
